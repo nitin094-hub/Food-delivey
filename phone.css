@@ -1,0 +1,33 @@
+@media only screen and (max-width: 706px) {
+    #home div {
+        /* border: 2pxsolid salmon; */
+        width: 100%;
+        /* margin-bottom: auto; */
+    }
+}
+@media only screen and (max-width: 567px) {
+    nav{
+        flex-direction: column;
+    }
+    #navbar h1{
+        text-align: center;
+    }
+    nav ul{
+        margin: auto;
+        padding-left: 0px;
+        
+    }
+    nav ul li{
+        padding: 8px 11px;
+    }
+    #services{
+        flex-direction: column;
+    }
+    #services .container{
+        margin: 7px 1px;
+
+    }
+    #clients #image .img{
+        height: 50px;
+    }
+}

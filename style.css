@@ -1,0 +1,168 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+nav{
+    display: flex;
+    position: relative;
+    /* opacity: 0.4; */
+    
+}
+#navbar h1{
+    color: aliceblue;
+
+}
+#navbar::before {    
+    content: "";
+    
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav ul li{
+    padding: 7px 30px;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li :hover{
+    background-color: white;
+    color: black;
+}    
+#home{
+    position: relative;
+    height: 316px;
+    padding-top: 60px;
+    
+}
+#home::before{
+    content: "";
+    
+    background-image: url('burger.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    z-index: -1;
+}
+#home div{
+    
+    width: 686px;
+    margin: auto;
+    /* margin-bottom: auto; */
+}
+#home h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+#home p{
+    text-align: center;
+}
+#services{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#services .container{
+    
+    border: 2px solid salmon;
+    border-radius: 25px;
+    flex-basis: 31%;
+    background-color: rgb(235, 227, 226);
+}
+#services .container img{
+    width: 67px;
+    height: 76px;
+    margin: auto;
+    display: block;
+    margin-top: 4px;
+}
+#services .container h2{
+    text-align: center;
+
+}
+#services .container p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#clients{
+    
+    margin-top: 2px;
+    position: relative;
+    height: 231px;
+}
+#clients::before{
+    content: "";
+    
+    background-image: url('burger.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    z-index: -1;
+}
+#clients #image {
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#clients #image .img{
+    flex-basis: 0%;
+    height: 86px;
+    margin: 2px;
+}
+#contact form input{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 53%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius:5px ;
+}
+#contact form textarea{
+    display: block;
+    margin: auto;
+    width: 53%;
+    margin-bottom: 3px;
+    border-radius:5px ;
+}
+#contact form .btn{
+    display: block;
+    margin: auto;
+    width: 53%;
+    border-radius:5px ;
+    cursor: pointer;
+    
+}
+
+
